@@ -93,7 +93,7 @@ namespace Ryujinx.Ava.UI.Controls
             {
                 if (eventArgs.Result == ContentDialogResult.Primary)
                 {
-                    bool isTextAgreeWithKeyboardMode = false;
+                    bool isTextAgreeWithKeyboardMode = true;
                     switch (args.KeyboardMode)
                     {
                         case HLE.HOS.Applets.SoftwareKeyboard.KeyboardMode.NumbersOnly:

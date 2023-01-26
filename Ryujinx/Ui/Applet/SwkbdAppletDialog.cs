@@ -89,7 +89,7 @@ namespace Ryujinx.Ui.Applet
 
         private bool CheckInputTextAgainstKeyboardMode()
         {
-            bool isTextAgreeWithKeyboardMode = false;
+            bool isTextAgreeWithKeyboardMode = true;
             switch (_mode)
             {
                 case HLE.HOS.Applets.SoftwareKeyboard.KeyboardMode.NumbersOnly:
